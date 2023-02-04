@@ -1,0 +1,5 @@
+.todo-items{
+    margin: 16px;
+    overflow-y: scroll;
+    max-height: 450px;
+}

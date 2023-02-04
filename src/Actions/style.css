@@ -1,0 +1,36 @@
+:root{
+    --primary:#F84546 ;
+}
+.Actions{
+    width: 100%;
+    padding: 16px;
+    border-top: 2px solid rgba(128, 128, 128, 0.437);
+    display: flex;
+    justify-content: center;
+    column-gap: 16px;
+}
+.Actions button{
+    width: 50%;
+    height: 48px ;
+    border: none;
+    font-size: 16px;
+}
+
+.primary{
+    color: white;
+    background-color:var(--primary) ;
+}
+.primary:hover{
+    box-shadow: 0px 4px 12px 0px #F84546;
+    transition: .5s;
+    cursor: pointer;
+}
+.secondary{
+    color: var(--primary);
+    background-color: white;
+}
+.secondary:hover{
+    box-shadow:  4px 12px 0px rgba(0, 0, 0, 0.1);
+    transition: .5s;
+    cursor: pointer;
+}
